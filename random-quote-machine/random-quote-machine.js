@@ -1,7 +1,10 @@
 $(document).ready(function() {
-    console.info("hi");
+    
+    displayQuote();
 
+});
 
+function displayQuote() {
     $.getJSON("http://quotes.stormconsultancy.co.uk/random.json", function(json) {
 
         var quote = jQuery.parseJSON( JSON.stringify(json) );
@@ -10,5 +13,4 @@ $(document).ready(function() {
         $(".author").html(quote.author);
 
     });
-
-});
+};
