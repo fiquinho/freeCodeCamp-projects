@@ -39,3 +39,17 @@ p {
 .author {
     text-align: right;
 }
+.button {
+    width: 150px;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #367732;
+    color: #e0fff7;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
