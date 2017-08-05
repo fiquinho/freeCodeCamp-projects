@@ -17,10 +17,11 @@ p {
 .content {
     height: fit-content;
     width: 75%;
-    margin: 50px auto ;
+    margin: 7% auto;
     padding: 20px;
     background-color: #e0fff7;
     border-radius: 20px;
+    position: relative;
 }
 
 .screen {
@@ -48,8 +49,41 @@ p {
     background-color: #367732;
     color: #e0fff7;
     cursor: pointer;
+
 }
 
 .button:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.share {
+    font-size: 90%;
+    display: flex;
+    vertical-align: middle;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 35px;
+}
+
+.share div {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 25px;
+}
+
+.twitter {
+    font-size: 200%;
+    padding-left: 10px;
+    color: #367732;
+}
+
+span {
+    margin: auto 0;
+    display: block;
+    height: fit-content;
+}
+
+.alert {
+    color: darkred;
+    display: none;
 }
